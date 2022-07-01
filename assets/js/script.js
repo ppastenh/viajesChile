@@ -12,12 +12,7 @@ $(document).ready(function () {
     }
   });
 
-
   // ¿Quiénes Somos? - Destacados
-
-  $(".titulocard1").click(function () {
-    $('.textoCard1').toggle();
-  });
 
   $(".titulocard2").click(function () {
     $('.textoCard2').toggle();
@@ -35,6 +30,12 @@ $(document).ready(function () {
     alert('Fue enviado correctamente');
   });
 
+  $(".textoCard1").on("dblclick", function () {
+    $(this).css({
+      "color": "rgb(72, 173, 150)",
+    })
+  })
+  
   // Redes Sociales
 
   $(function () {

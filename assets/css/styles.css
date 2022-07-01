@@ -4,10 +4,6 @@
     border: 0;
 }
 
-:root {
-    colores
-}
-
 body {
     font-family: 'Work Sans', sans-serif;
     color: var(--white);
@@ -136,7 +132,9 @@ footer {
 }
 
 
-
+a {
+    color: rgb(72, 173, 150);
+}
 
 
 
