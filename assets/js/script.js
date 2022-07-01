@@ -42,6 +42,12 @@ $(document).ready(function () {
     $('[data-bs-toggle="tooltip"]').tooltip();
   });
 
+  $(".corazon").on("dblclick", function () {
+    $(this).css({
+      "color": "red",
+    })
+  })
+
 });
 
 

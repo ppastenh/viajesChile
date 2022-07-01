@@ -7,7 +7,7 @@
 body {
     font-family: 'Work Sans', sans-serif;
     color: var(--white);
-    background: rgb(0, 0, 0);    
+    background: rgb(0, 0, 0);
 }
 
 .tooltip-inner {
@@ -19,13 +19,13 @@ body {
 
 .navbar {
     font-weight: 500;
+    transition: all 1s ease-out;  
 }
 
-.logo {    
+.logo {
     padding-right: 1rem;
     height: 2rem;
 }
-
 
 /* Carrusel */
 
@@ -71,7 +71,7 @@ h4 {
 }
 
 .titulocard2 {
-    font-weight: 500;
+    font-weight: 500;    
 }
 
 .textoCard2 {
@@ -128,14 +128,5 @@ footer {
 
 .rrss {
     color: white;
-    font-size: 2.5rem;    
+    font-size: 2.5rem;
 }
-
-
-a {
-    color: rgb(72, 173, 150);
-}
-
-
-
-
