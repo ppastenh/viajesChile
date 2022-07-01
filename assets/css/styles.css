@@ -116,14 +116,13 @@ footer {
 .textViaje {
     font-weight: 700;
     padding-top: 1rem;
-    font-size: large;
-    color: white;
-    font-style: ;
+    font-size: x-large;
+    color: white;    
 }
 
 .msjFinal {
     font-weight: 400;
-    padding-top: 1rem;
+    padding-top: 1.5rem;
 }
 
 .rrss {
